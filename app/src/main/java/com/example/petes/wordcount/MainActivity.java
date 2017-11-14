@@ -25,9 +25,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void onButtonClick(View view) {
-        Log.d(getClass().toString(), "onButtonClicked");
         String sentence = this.sentenceEditText.getText().toString();
-        Log.d(getClass().toString(), sentence);
         Input input = new Input(sentence);
         int result = input.wordCount();
         this.counter.setText(Integer.toString(result));
