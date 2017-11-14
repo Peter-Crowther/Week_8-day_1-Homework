@@ -9,13 +9,24 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity android:name=".controllers.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".controllers.AnswerActivity"
+            android:label="@string/answer_activity_title"
+            android:parentActivityName=".controllers.MainActivity" />
+        <activity
+            android:name=".controllers.AboutActivity"
+            android:label="@string/about_activity_title"
+            android:parentActivityName=".controllers.MainActivity" />
+        <activity android:name=".controllers.SettingsActivity"
+                    android:label="@string/settings_activity_title"
+                    android:parentActivityName=".controllers.MainActivity"/>
     </application>
 
 </manifest>

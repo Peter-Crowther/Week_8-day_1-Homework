@@ -1,4 +1,4 @@
-package com.example.petes.wordcount;
+package com.example.petes.wordcount.models;
 
 import java.util.HashMap;
 import java.util.Map;

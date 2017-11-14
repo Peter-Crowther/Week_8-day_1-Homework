@@ -1,6 +1,6 @@
 package com.example.petes.wordcount;
 
-import android.icu.lang.UCharacter;
+import com.example.petes.wordcount.models.Input;
 
 import org.junit.Test;
 
